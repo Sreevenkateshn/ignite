@@ -1,39 +1,183 @@
+
 {
-    "AN":"Andaman and Nicobar Islands",
-    "AP":"Andhra Pradesh",
-    "AR":"Arunachal Pradesh",
-    "AS":"Assam",
-    "BR":"Bihar",
-    "CG":"Chandigarh",
-    "CH":"Chhattisgarh",
-    "DN":"Dadra and Nagar Haveli",
-    "DD":"Daman and Diu",
-    "DL":"Delhi",
-    "GA":"Goa",
-    "GJ":"Gujarat",
-    "HR":"Haryana",
-    "HP":"Himachal Pradesh",
-    "JK":"Jammu and Kashmir",
-    "JH":"Jharkhand",
-    "KA":"Karnataka",
-    "KL":"Kerala",
-    "LA":"Ladakh",
-    "LD":"Lakshadweep",
-    "MP":"Madhya Pradesh",
-    "MH":"Maharashtra",
-    "MN":"Manipur",
-    "ML":"Meghalaya",
-    "MZ":"Mizoram",
-    "NL":"Nagaland",
-    "OR":"Odisha",
-    "PY":"Puducherry",
-    "PB":"Punjab",
-    "RJ":"Rajasthan",
-    "SK":"Sikkim",
-    "TN":"Tamil Nadu",
-    "TS":"Telangana",
-    "TR":"Tripura",
-    "UP":"Uttar Pradesh",
-    "UK":"Uttarakhand",
-    "WB":"West Bengal"
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "states": {
+        "id": "states_of_india_cheat_sheet",
+        "name": "States Of India",
+        "description": "All the Indian states along with their capital cities",
+        "metadata": {
+            "sourceName": "Wikipedia",
+            "sourceUrl": "https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India"
+        },
+        "aliases": [
+            "indian states"
+        ],
+        "template_type": "reference",
+        "section_order": [
+            "States (A-L)",
+            "States (M-Z)",
+            "Union Territories"
+        ],
+        "sections": {
+            "States (A-L)": [
+                {
+                    "key": "Andhra Pradesh",
+                    "val": "Hyderabad"
+                },
+                {
+                    "key": "Arunachal Pradesh",
+                    "val": "Itanagar"
+                },
+                {
+                    "key": "Assam",
+                    "val": "Dispur"
+                },
+                {
+                    "key": "Bihar",
+                    "val": "Patna"
+                },
+                {
+                    "key": "Chhattisgarh",
+                    "val": "Raipur"
+                },
+                {
+                    "key": "Goa",
+                    "val": "Panaji"
+                },
+                {
+                    "key": "Gujarat",
+                    "val": "Gandhinagar"
+                },
+                {
+                    "key": "Haryana",
+                    "val": "Chandigarh"
+                },
+                {
+                    "key": "Himachal Pradesh",
+                    "val": "Shimla"
+                },
+                {
+                    "key": "Jammu & Kashmir",
+                    "val": "Srinagar(Summer)/Jammu(Winter)"
+                },
+                {
+                    "key": "Jharkhand",
+                    "val": "Ranchi"
+                },
+                {
+                    "key": "Karnataka",
+                    "val": "Bengaluru"
+                },
+                {
+                    "key": "Kerala",
+                    "val": "Thiruvananthapuram"
+                }
+            ],
+            "States (M-Z)": [
+                {
+                    "key": "Madhya Pradesh",
+                    "val": "Bhopal"
+                },
+                {
+                    "key": "Maharashtra",
+                    "val": "Mumbai"
+                },
+                {
+                    "key": "Manipur",
+                    "val": "Imphal"
+                },
+                {
+                    "key": "Meghalaya",
+                    "val": "Shillong"
+                },
+                {
+                    "key": "Mizoram",
+                    "val": "Aizawl"
+                },
+                {
+                    "key": "Nagaland",
+                    "val": "Kohima"
+                },
+                {
+                    "key": "Odisha",
+                    "val": "Bhubaneswar"
+                },
+                {
+                    "key": "Punjab",
+                    "val": "Chandigarh"
+                },
+                {
+                    "key": "Rajasthan",
+                    "val": "Jaipur"
+                },
+                {
+                    "key": "Sikkim",
+                    "val": "Gangtok"
+                },
+                {
+                    "key": "Tamil Nadu",
+                    "val": "Chennai"
+                },
+                {
+                    "key": "Telangana",
+                    "val": "Hyderabad"
+                },
+                {
+                    "key": "Tripura",
+                    "val": "Agartala"
+                },
+                {
+                    "key": "Uttar Pradesh",
+                    "val": "Lucknow"
+                },
+                {
+                    "key": "Uttarakhand",
+                    "val": "Dehradun"
+                },
+                {
+                    "key": "West Bengal",
+                    "val": "Kolkata"
+                }
+            ],
+            "Union Territories": [
+                {
+                    "key": "Andaman & Nicobar Islands",
+                    "val": "Port Blair"
+                },
+                {
+                    "key": "Chandigarh",
+                    "val": "Chandigarh"
+                },
+                {
+                    "key": "Dadra & Nagar Haveli",
+                    "val": "Silvassa"
+                },
+                {
+                    "key": "Daman & Diu",
+                    "val": "Daman"
+                },
+                {
+                    "key": "Lakshadweep",
+                    "val": "Kavaratti"
+                },
+                {
+                    "key": "Puducherry",
+                    "val": "Puducherry"
+                },
+                {
+                    "key": "Delhi",
+                    "val": "New Delhi"
+                }
+            ]
+        }
+    }
+
 }
