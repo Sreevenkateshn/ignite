@@ -1,16 +1,16 @@
 
 {
-  employees:{
+  "employees":{
     "ece": [
       { "firstName": "John", "age": "23" },
       { "firstName": "Julie", "age": "54" },
-      { "firstName": "Alpha", "age": "35" },
+      { "firstName": "Alpha", "age": "35" }
     ],
     "cse": [
       { "firstName": "Ramsy", "age": "45" },
       { "firstName": "Lovedale", "age": "23" },
-      { "firstName": "Beta", "age": "85" },
-    ], 
+      { "firstName": "Beta", "age": "85" }
+    ]
   },
   "states": {
         "id": "states_of_india_cheat_sheet",
