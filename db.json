@@ -3,7 +3,11 @@
     "ece": [
       { "firstName": "John", "age": "23" },
       { "firstName": "Julie", "age": "54" },
-      { "firstName": "Alpha", "age": "35" }
+      { "firstName": "Alpha", "age": "35" },
+      { "firstName": "Alpha", "age": "35" },
+      {"firstName": "John", "age": "23" },
+      { "firstName": "Julie", "age": "54" },
+      { "firstName": "Alpha", "age": "35" },
       { "firstName": "Alpha", "age": "35" }
     ],
     "cse": [
